@@ -1,0 +1,47 @@
+.page__documetns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.documents__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.react-pdf__Page__textContent,
+.react-pdf__Page__annotations,
+.react-pdf__Page__textContent {
+    display: none;
+}
+.documents__page,
+.documents__title {
+   text-align: center;
+   margin-top: 50px;
+}
+.documents__title {
+    font-size: 48px;
+    font-weight: 500;
+   
+}
+.react-pdf__Page__canvas {
+    max-width: 600px;
+    width: 100%;
+}
+@media (max-width: 1200px)  {
+    .documents__container {
+       flex-direction: column;
+    } 
+}
+@media (max-width: 605px)  {
+    .react-pdf__Page__canvas {
+        max-width: 300px;
+        width: 100%;
+        height: 400px !important;
+    }
+    .documents__title {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,114 @@
+.page__footer {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 140px;
+  
+  
+  }
+  .footer__container{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    position: relative;
+    background-image: url("../../images/kls.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    align-items: center;
+    padding: 7px 146px 7px 139px;
+
+  }
+  .footer__container::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .footer__logo {
+    display: block;
+    width: 121px;
+    background-position: center;
+    height: 64px;
+    background-image: url("../../images/logoWhite.png");
+    transition: opacity .3s linear;
+    background-size: contain;
+    position: relative;
+    z-index: 1; 
+    background-repeat: no-repeat;
+  
+  }
+  .footer__info {
+    max-width: 240px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding-left: 139px;
+    position: relative;
+    z-index: 2; 
+    color: white
+  }
+  .footer__block_contact {
+    padding-left: 221px;
+    position: relative;
+    z-index: 3; 
+    color: white
+  }
+  .footer__text-border {
+    border: 1.5px solid #EF7E18;
+    border-radius: 50px;
+    max-width: 180px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3px 3px 3px 3px;
+
+  }
+  @media (max-width: 1100px) {
+    .footer__block_contact {
+      padding-left: 100px;
+    }
+    .footer__info {
+      padding-left: 30px;
+    }
+    .footer__container{
+      padding: 7px 100px 7px 100px;
+  }
+}
+  @media (max-width: 768px) {
+
+    .footer__info {
+      max-width: 240px;
+      width: 100%;
+      font-size: 20px;
+      line-height: 20px;
+  
+    }
+    .footer__container{
+      padding: 0 30px 0 30px;
+  
+    }
+    .footer__block_contact {
+      padding-left: 100px;
+    }
+  }
+  @media (max-width: 459px) {
+    .footer__info {
+      font-size: 15px;
+      padding-left: 10px;
+      max-width: 170px;
+      width: 100%;
+    }
+    .footer__container{
+      padding: 0 20px 0 20px;
+  
+    }
+    .footer__block_contact {
+      padding-left: 20px;
+    }
+  }
