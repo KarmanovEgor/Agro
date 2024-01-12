@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { promoContent } from "../constants/constants";
 import "./Promo.css";
 export default function Promo() {
@@ -12,10 +12,12 @@ export default function Promo() {
             <div className="promo__logo"></div>
             <div className="promo__content">
               <h1 className="promo__text">{text}</h1>
-              <button className="promo__btn">
-                {button}
-                <div className="promo__arrow"></div>
-              </button>
+              <Link to="/contacts" className="promo__link">
+                <button className="promo__btn">
+                  {button}
+                  <div className="promo__arrow"></div>
+                </button>
+              </Link>
             </div>
           </div>
         </section>

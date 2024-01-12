@@ -54,7 +54,7 @@ export default function Header() {
         location.pathname === "/" ? "header_theme_blue" : "header_theme_black"
       }`}
     >
-      <navigation className="header__container">
+      <div className="header__container">
         <Link to={"/"} className="header__link-home"></Link>
         <>
           <Burger
@@ -74,7 +74,7 @@ export default function Header() {
             <option value="china">中国</option>
           </select>
         </form>
-      </navigation>
+      </div>
     </header>
   );
 }

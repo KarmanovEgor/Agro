@@ -201,6 +201,7 @@ const contactsContent = {
     wahtsapp: "Go to WhatsApp",
     telega: "Go to Telegram",
   },
+  
 };
 const docsContent = {
     "/documents": {
