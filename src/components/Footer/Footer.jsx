@@ -9,7 +9,6 @@ export default function Footer() {
   const location = useLocation();
   const { title, text, name } = footerContent[location.pathname] || {};
 
-  console.log(name);
   return (
     <footer className="footer page__footer">
       <div className="footer__container">
