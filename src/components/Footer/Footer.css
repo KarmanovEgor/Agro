@@ -29,6 +29,10 @@
     bottom: 0;
     left: 0;
   }
+  .footer__info-list{
+    display: flex;
+    flex-direction: column;
+  }
   .footer__logo {
     display: block;
     width: 121px;

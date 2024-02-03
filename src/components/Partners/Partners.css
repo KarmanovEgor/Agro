@@ -37,7 +37,7 @@
   @media screen and (max-width: 768px) {
       .partners__grid {
           gap: 12px;
-      
+          grid-template-columns: repeat(auto-fit, minmax(150px, 0fr));
         }
         .partners__container{
           padding-left: 30px;
@@ -52,6 +52,7 @@
   }
   .partners__grid {
     padding-top: 30px;
+
   }
   .partners__container{
     padding-left: 20px;

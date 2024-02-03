@@ -1,0 +1,8 @@
+.employlist {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    max-width: 1155px;
+    flex-wrap: wrap;
+    gap: 30px 30px;
+}

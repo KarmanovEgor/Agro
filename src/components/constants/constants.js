@@ -79,6 +79,11 @@ const partnersData = [
     image: require("../../images/omskprod.png"),
     alt: "Омское продовольствие",
   },
+  {
+    link: "https://melnik.n4.biz/",
+    image: require("../../images/melnik.gif"),
+    alt: "ОАО Мельник",
+  },
 ];
 
 const promoContent = {
@@ -155,24 +160,32 @@ const partnersContent = {
 };
 const footerContent = {
   "/": {
-    title: "Российская Федерация, Алтайский край, г. Барнаул",
+    title: "Российская Федерация, Алтайский край, ",
+    city: "г. Барнаул",
     text: "Контакты",
+    job: "Генеральный директор",
     name: "Чёрный Роман Анатольевич",
   },
   "/ru": {
-    title: "Российская Федерация, Алтайский край, г. Барнаул",
+    title: "Российская Федерация, Алтайский край, ",
+    city: "г. Барнаул",
     text: "Контакты",
+    job: "",
     name: "Чёрный Роман Анатольевич",
   },
   "/zh": {
-    title: "俄罗斯联邦, 阿尔泰边疆区，巴尔瑙尔市",
+    title: "俄罗斯联邦, 阿尔泰边疆区，",
+    city: "巴尔瑙尔市",
     text: "联系方式 ",
-    name: "Chernyy Roman Anatolyevichernaya",
+    job: "总裁",
+    name: "Chernyy Roman Anatolyevich",
   },
   "/en": {
-    title: "Russian Federation, Altai Krai, Barnaul,",
+    title: "Russian Federation, Altai Krai, ",
+    city: "Barnaul",
     text: "Contacts",
-    name: "Chernyy Roman Anatolyevichernaya",
+    job: "Chief Executive Officer (CEO)",
+    name: "Chernyy Roman Anatolyevich",
   },
 };
 
@@ -221,6 +234,41 @@ const docsContent = {
 
     },
   };
+  const contactsEmployees = [
+    {
+      lastname: "ЧЁРНАЯ",
+      name: "Елена Георгиевна",
+      emproy: "Коммерческий Директор",
+      mailPerson: "chernaya.eg1985@gmail.com",
+      telphone: "+7 (960) 964-33-77",
+      image: require("../../images/fd.png"),
+    },
+    {
+      lastname: "ЧЁРНЫЙ",
+      name: "Роман Анатольевич",
+      emproy: "Генеральный Директор",
+      mailPerson: "",
+      telphone: "+7 (913) 224-17-89",
+      image: require("../../images/gd.png"),
+    },
+    {
+      lastname: "МОРДОВИНА",
+      name: "Елена Николаевна",
+      emproy: "Менеджер",
+      mailPerson: "mordovina_agro@mail.ru",
+      telphone: "+7 (903) 990-87-44",
+      image: require("../../images/m1.png"),
+    },
+    {
+      lastname: "ПОЛИНА",
+      name: "Виктория Александровна",
+      emproy: "Менеджер",
+      mailPerson: "vika.polina.71@list.ru",
+      telphone: "+7 (960) 964-33-77",
+      image: require("../../images/m2.png"),
+    },
+
+  ]
 
 const routes = ["/documents", "/contacts"];
 const languages = ["ru", "zh", "en"];
@@ -243,5 +291,6 @@ export {
   partnersContent,
   footerContent,
   contactsContent,
-  docsContent
+  docsContent,
+  contactsEmployees
 };
