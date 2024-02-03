@@ -1,12 +1,27 @@
 import './Cardlist.css'
 import Card from "../Card/Card";
-import { contactsEmployees } from "../constants/constants";
+import { contactsEmployees, contactsEmployeesZh, contactsEmployeesEn } from "../constants/constants";
+import { useLocation } from 'react-router-dom';
 
 
 function EmployeesList() {
-  return (
-   <div className="employlist">
-      {contactsEmployees.map((employee, index) => (
+    const location = useLocation();
+
+    const getEmployeesByLanguage = (path) => {
+      if (path === "/contacts/en") {
+        return contactsEmployeesEn;
+      } else if (path === "/contacts/zh") {
+        return contactsEmployeesZh;
+      } else {
+        return contactsEmployees;
+      }
+    };
+  
+    const currentEmployees = getEmployeesByLanguage(location.pathname);
+  
+    return (
+      <div className="employlist">
+        {currentEmployees.map((employee, index) => (
         <Card
           key={index}
           name={employee.name}

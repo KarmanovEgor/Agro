@@ -214,62 +214,123 @@ const contactsContent = {
     wahtsapp: "Go to WhatsApp",
     telega: "Go to Telegram",
   },
-  
 };
 const docsContent = {
-    "/documents": {
-      doc: "Документы",
-
-    },
-    "/documents/ru": {
+  "/documents": {
     doc: "Документы",
-
-    },
-    "/documents/zh": {
-   doc: "文件",
-
-    },
-    "/documents/en": {
-      doc: "Documents",
-
-    },
-  };
-  const contactsEmployees = [
-    {
-      lastname: "ЧЁРНАЯ",
-      name: "Елена Георгиевна",
-      emproy: "Коммерческий Директор",
-      mailPerson: "chernaya.eg1985@gmail.com",
-      telphone: "+7 (960) 964-33-77",
-      image: require("../../images/fd.png"),
-    },
-    {
-      lastname: "ЧЁРНЫЙ",
-      name: "Роман Анатольевич",
-      emproy: "Генеральный Директор",
-      mailPerson: "",
-      telphone: "+7 (913) 224-17-89",
-      image: require("../../images/gd.png"),
-    },
-    {
-      lastname: "МОРДОВИНА",
-      name: "Елена Николаевна",
-      emproy: "Менеджер",
-      mailPerson: "mordovina_agro@mail.ru",
-      telphone: "+7 (903) 990-87-44",
-      image: require("../../images/m1.png"),
-    },
-    {
-      lastname: "ПОЛИНА",
-      name: "Виктория Александровна",
-      emproy: "Менеджер",
-      mailPerson: "vika.polina.71@list.ru",
-      telphone: "+7 (960) 964-33-77",
-      image: require("../../images/m2.png"),
-    },
-
-  ]
-
+  },
+  "/documents/ru": {
+    doc: "Документы",
+  },
+  "/documents/zh": {
+    doc: "文件",
+  },
+  "/documents/en": {
+    doc: "Documents",
+  },
+};
+const contactsEmployees = [
+  {
+    lastname: "ЧЁРНАЯ",
+    name: "Елена Георгиевна",
+    emproy: "Коммерческий Директор",
+    mailPerson: "chernaya.eg1985@gmail.com",
+    telphone: "+7 (960) 964-33-77",
+    image: require("../../images/fd.png"),
+  },
+  {
+    lastname: "ЧЁРНЫЙ",
+    name: "Роман Анатольевич",
+    emproy: "Генеральный Директор",
+    mailPerson: "",
+    telphone: "+7 (913) 224-17-89",
+    image: require("../../images/gd.png"),
+  },
+  {
+    lastname: "МОРДОВИНА",
+    name: "Елена Николаевна",
+    emproy: "Менеджер",
+    mailPerson: "mordovina_agro@mail.ru",
+    telphone: "+7 (903) 990-87-44",
+    image: require("../../images/m1.png"),
+  },
+  {
+    lastname: "ПОЛИНА",
+    name: "Виктория Александровна",
+    emproy: "Менеджер",
+    mailPerson: "vika.polina.71@list.ru",
+    telphone: "+7 (960) 964-33-77",
+    image: require("../../images/m2.png"),
+  },
+];
+const contactsEmployeesEn = [
+  {
+    lastname: "CHERNAYA",
+    name: "Yelena Georgievna",
+    emproy: "Commercial Director",
+    mailPerson: "chernaya.eg1985@gmail.com",
+    telphone: "+7 (960) 964-33-77",
+    image: require("../../images/fd.png"),
+  },
+  {
+    lastname: "CHERNY",
+    name: "Roman Anatolyevich",
+    emproy: "General Director",
+    mailPerson: "",
+    telphone: "+7 (913) 224-17-89",
+    image: require("../../images/gd.png"),
+  },
+  {
+    lastname: "MORDOVINA",
+    name: "Yelena Nikolaevna",
+    emproy: "Manager",
+    mailPerson: "mordovina_agro@mail.ru",
+    telphone: "+7 (903) 990-87-44",
+    image: require("../../images/m1.png"),
+  },
+  {
+    lastname: "POLINA",
+    name: "Viktoriya Aleksandrovna",
+    emproy: "Manager",
+    mailPerson: "vika.polina.71@list.ru",
+    telphone: "+7 (960) 964-33-77",
+    image: require("../../images/m2.png"),
+  },
+];
+const contactsEmployeesZh = [
+  {
+    lastname: "CHERNAYA",
+    name: "Yelena Georgievna",
+    emproy: "商业总监",
+    mailPerson: "chernaya.eg1985@gmail.com",
+    telphone: "+7 (960) 964-33-77",
+    image: require("../../images/fd.png"),
+  },
+  {
+    lastname: "CHERNY",
+    name: "Roman Anatolyevich",
+    emproy: "总经理",
+    mailPerson: "",
+    telphone: "+7 (913) 224-17-89",
+    image: require("../../images/gd.png"),
+  },
+  {
+    lastname: "MORDOVINA",
+    name: "Yelena Nikolaevna",
+    emproy: "经理",
+    mailPerson: "mordovina_agro@mail.ru",
+    telphone: "+7 (903) 990-87-44",
+    image: require("../../images/m1.png"),
+  },
+  {
+    lastname: "POLINA",
+    name: "Viktoriya Aleksandrovna",
+    emproy: "经理",
+    mailPerson: "vika.polina.71@list.ru",
+    telphone: "+7 (960) 964-33-77",
+    image: require("../../images/m2.png"),
+  },
+];
 const routes = ["/documents", "/contacts"];
 const languages = ["ru", "zh", "en"];
 
@@ -292,5 +353,7 @@ export {
   footerContent,
   contactsContent,
   docsContent,
-  contactsEmployees
+  contactsEmployees,
+  contactsEmployeesZh, 
+  contactsEmployeesEn
 };
