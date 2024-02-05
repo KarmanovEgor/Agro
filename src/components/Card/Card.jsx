@@ -14,11 +14,11 @@ export default function Card(props) {
             <h3 className="card__subtitle">{name}</h3>
             <p className="card__subtitle">{emproy}</p>
           </div>
-          <Link to={`tel:${telphone}`} className="contacts__links">{telphone}</Link>
-          <Link to={`mailto:${mailPerson}`} className="contacts__links">
+          <Link to={`tel:${telphone}`} className="card__links">{telphone}</Link>
+          <Link to={`mailto:${mailPerson}`} className="card__links">
             {mailPerson}
           </Link>
-          <Link to={`mailto: agrowww.mail.ru`} className="contacts__links">
+          <Link to={`mailto: agrowww.mail.ru`} className="card__links">
           agrowww.mail.ru
           </Link>
         </div>

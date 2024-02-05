@@ -231,14 +231,6 @@ const docsContent = {
 };
 const contactsEmployees = [
   {
-    lastname: "ЧЁРНАЯ",
-    name: "Елена Георгиевна",
-    emproy: "Коммерческий Директор",
-    mailPerson: "chernaya.eg1985@gmail.com",
-    telphone: "+7 (960) 964-33-77",
-    image: require("../../images/fd.png"),
-  },
-  {
     lastname: "ЧЁРНЫЙ",
     name: "Роман Анатольевич",
     emproy: "Генеральный Директор",
@@ -246,6 +238,16 @@ const contactsEmployees = [
     telphone: "+7 (913) 224-17-89",
     image: require("../../images/gd.png"),
   },
+
+  {
+    lastname: "ЧЁРНАЯ",
+    name: "Елена Георгиевна",
+    emproy: "Коммерческий Директор",
+    mailPerson: "chernaya.eg1985@gmail.com",
+    telphone: "+7 (960) 964-33-77",
+    image: require("../../images/fd.png"),
+  },
+
   {
     lastname: "МОРДОВИНА",
     name: "Елена Николаевна",
@@ -259,19 +261,11 @@ const contactsEmployees = [
     name: "Виктория Александровна",
     emproy: "Менеджер",
     mailPerson: "vika.polina.71@list.ru",
-    telphone: "+7 (960) 964-33-77",
+    telphone: "+7 (961) 997-57-97",
     image: require("../../images/m2.png"),
   },
 ];
 const contactsEmployeesEn = [
-  {
-    lastname: "CHERNAYA",
-    name: "Yelena Georgievna",
-    emproy: "Commercial Director",
-    mailPerson: "chernaya.eg1985@gmail.com",
-    telphone: "+7 (960) 964-33-77",
-    image: require("../../images/fd.png"),
-  },
   {
     lastname: "CHERNY",
     name: "Roman Anatolyevich",
@@ -280,6 +274,16 @@ const contactsEmployeesEn = [
     telphone: "+7 (913) 224-17-89",
     image: require("../../images/gd.png"),
   },
+
+  {
+    lastname: "CHERNAYA",
+    name: "Yelena Georgievna",
+    emproy: "Commercial Director",
+    mailPerson: "chernaya.eg1985@gmail.com",
+    telphone: "+7 (960) 964-33-77",
+    image: require("../../images/fd.png"),
+  },
+ 
   {
     lastname: "MORDOVINA",
     name: "Yelena Nikolaevna",
@@ -293,19 +297,11 @@ const contactsEmployeesEn = [
     name: "Viktoriya Aleksandrovna",
     emproy: "Manager",
     mailPerson: "vika.polina.71@list.ru",
-    telphone: "+7 (960) 964-33-77",
+    telphone: "+7 (961) 997-57-97",
     image: require("../../images/m2.png"),
   },
 ];
 const contactsEmployeesZh = [
-  {
-    lastname: "CHERNAYA",
-    name: "Yelena Georgievna",
-    emproy: "商业总监",
-    mailPerson: "chernaya.eg1985@gmail.com",
-    telphone: "+7 (960) 964-33-77",
-    image: require("../../images/fd.png"),
-  },
   {
     lastname: "CHERNY",
     name: "Roman Anatolyevich",
@@ -315,6 +311,14 @@ const contactsEmployeesZh = [
     image: require("../../images/gd.png"),
   },
   {
+    lastname: "CHERNAYA",
+    name: "Yelena Georgievna",
+    emproy: "商业总监",
+    mailPerson: "chernaya.eg1985@gmail.com",
+    telphone: "+7 (960) 964-33-77",
+    image: require("../../images/fd.png"),
+  },
+  {
     lastname: "MORDOVINA",
     name: "Yelena Nikolaevna",
     emproy: "经理",
@@ -327,7 +331,7 @@ const contactsEmployeesZh = [
     name: "Viktoriya Aleksandrovna",
     emproy: "经理",
     mailPerson: "vika.polina.71@list.ru",
-    telphone: "+7 (960) 964-33-77",
+    telphone: "+7 (961) 997-57-97",
     image: require("../../images/m2.png"),
   },
 ];

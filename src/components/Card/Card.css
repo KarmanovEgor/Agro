@@ -15,19 +15,35 @@
 .card__img {
     max-width: 200px;
     width: 100%;
-    padding-right: 5px;
+    padding-right: 15px;
 }
 .card__block,
 .card__header {
     display: flex;
     flex-direction: column;
 }
+.card__header {
+    margin-bottom: 10px;
+}
 .card__subtitle{
-    margin: 5px;
+    margin: 5px 0 5px 0;
 }
 .card__title {
     margin-bottom: 5px;
 }
+.card__links {
+    color: #EF7E18;
+    font-size: 18px;
+    transition: transform 0.3s, filter 0.3s;
+    margin: 5px 0 5px 0;
+    
+ }
+ .card__links:hover {
+     color: #EF7E18;
+     font-size: 25px;
+     transform: scale(1.2); /* Увеличиваем размер изображения */
+     filter: brightness(110%); /* Подсвечиваем изображение */
+  }
 
 @media (max-width: 550px) { 
     .card {
@@ -39,8 +55,8 @@
         align-items: center;
     }
     .card__block {
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
     }
     
 
